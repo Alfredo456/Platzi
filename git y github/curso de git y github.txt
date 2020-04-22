@@ -3,8 +3,8 @@ git show
 git rm *nombre de archivo*
 git config
 git congig --list --show-origin
-git congig --global user.name *"nombre"*
-git congig --global user.email *"nombre"*
+git congig --global user.name "*nombre*"
+git congig --global user.email "*nombre*"
 git log
 git diff
 git reset *commit* --hard/soft

@@ -1,0 +1,4 @@
+git congig --list
+git congig --global user.name "*nombre*"
+git congig --global user.email "*nombre*"
+git help *comando*
