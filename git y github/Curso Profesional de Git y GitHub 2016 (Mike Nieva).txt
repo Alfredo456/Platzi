@@ -2,3 +2,23 @@ git congig --list
 git congig --global user.name "*nombre*"
 git congig --global user.email "*nombre*"
 git help *comando*
+
+USO DE GIT BASICO:
+git init  -> crea el repositorio en local que es un directorio .git que contiene todo el historial 
+git status ->para ver que esta en el repo y que no
+git add[Archivo a subir] -> stagin area, preparar lo que sera el commit 
+git add -A ->alista todos los archivos para el commit
+git commit –m “Descripcion del commit” -> crea el commit y queda agregado al historial del repositorio.
+git log -> permite ver el historial de commit y su descripción.
+git log --oneline -> quita el autor y las fechas del commit realizado.
+git log –oneline --graph -> quita el autor y las fechas del commit realizado a;adiendo un asterisco (*) al inicio.
+git log --graph --abbrev-commit --decorate --date=relative --format=format:’%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)’ --all -> Log personalizado para mostrar los commit de forma super genial.
+git config --global alias.superlog “log --graph --abbrev-commit --decorate --date=relative --format=format:’%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)’ --all” -> Creacion de alias para ejecutar mega consultas de log de forma simplficada, es decir, una sola vez abreviando una palabra clave, en este caso “superlog”.
+git superlog -> en este caso después del ítem 10, el comando es git alias. Para ejecuar el comando previamente guardado.
+
+git reset --hard <commit id> elimina todo cambio realizado luego del commit id puesto   
+git reset --mixed <commit id> elimina los commit posteriores al indicado sin alterar el working directory
+git reset --soft <commit id> funciona igual que el reset mixed solo que en este no se altera tampoco el staging area
+
+gitlog--oneline--graph--all
+gitconfig--global  alias.logbranches"log--oneline--graph--all"
