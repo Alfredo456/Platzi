@@ -20,5 +20,6 @@ git reset --hard <commit id> elimina todo cambio realizado luego del commit id p
 git reset --mixed <commit id> elimina los commit posteriores al indicado sin alterar el working directory
 git reset --soft <commit id> funciona igual que el reset mixed solo que en este no se altera tampoco el staging area
 
-gitlog--oneline--graph--all
-gitconfig--global  alias.logbranches"log--oneline--graph--all"
+git log--oneline--graph--all
+git config--global  alias.logbranches"log--oneline--graph--all"
+     
