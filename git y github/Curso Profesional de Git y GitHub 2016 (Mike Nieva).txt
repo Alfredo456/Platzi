@@ -22,4 +22,11 @@ git reset --soft <commit id> funciona igual que el reset mixed solo que en este 
 
 git log--oneline--graph--all
 git config--global  alias.logbranches"log--oneline--graph--all"
+
+git branch --all
+git branch -D localBranchName
+git branch --track localBranchName origin/remoteBranchName
+git push origin --delete remoteBranchName
+git remote update origin --prune
+
      
