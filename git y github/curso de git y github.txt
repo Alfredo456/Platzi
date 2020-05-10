@@ -9,3 +9,14 @@ git log
 git diff
 git reset *commit* --hard/soft
 git checkout *commit/rama_para_ultimo_cambio* 
+git stash
+git rebase ramaRebase
+git cherry-pick commitId
+git commit --amend
+git reflog
+
+revisar conexion ssh
+gitignore
+repo fork
+alojar binarios en otro lado
+ghost 
