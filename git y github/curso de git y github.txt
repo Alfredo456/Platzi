@@ -20,5 +20,3 @@ gitignore
 repo fork
 alojar binarios en otro lado
 ghost 
-cambio para ver si cambiando el user.email se cambia la llave ssh
-cambio para ver si no me pide clave
