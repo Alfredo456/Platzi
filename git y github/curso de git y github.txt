@@ -20,4 +20,3 @@ gitignore
 repo fork
 alojar binarios en otro lado
 ghost 
-seguimos con las pruebas, ahora cree otra llave sin clave, vamos a veer si puedo hacer push sin clave
