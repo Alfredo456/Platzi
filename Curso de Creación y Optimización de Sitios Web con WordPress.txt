@@ -1,0 +1,6 @@
+borrar paginas 
+borrar entrdas 
+borrar comentarios 
+borrar medios
+borrar plugins
+borrar temas
