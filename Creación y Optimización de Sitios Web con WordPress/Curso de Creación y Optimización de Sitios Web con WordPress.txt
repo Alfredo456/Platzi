@@ -1,0 +1,20 @@
+borrar paginas 
+borrar entrdas 
+borrar comentarios 
+borrar medios
+borrar plugins
+borrar temas
+
+
+importante uso de los h1 h2 ... bien 
+uso de categorias 
+uso de imagen destacada 
+etiquetas
+incluir palabr clave en primer y ultimo parrafo, en el texto intentar usar variantes, por lo menos dos h2, por lo menos un h3 y siempre un h1, incluir imagenes, videos, incluir al final una "orden" al usuario para que siga viendo tu contenido. 
+en yoast si no usas mucho una etoiqueta es mejor q no indexes por etiquetas 
+
+https://search.google.com/search-console/welcome?hl=es
+
+wordference plugin para la seguridad
+backwpup plugin para los backups 
+WP Security Audit Log realiza auditorias al sitio (guarda registros de los usuarios que entran al sitio a editar contenido).

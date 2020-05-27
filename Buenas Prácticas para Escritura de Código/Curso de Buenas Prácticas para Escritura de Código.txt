@@ -1,0 +1,38 @@
+El patrón Singleton permite restringir la creación de objetos pertenecientes a una clase o al valor de un tipo a un único objeto.
+
+El patron Factory es creacional, se utiliza para ayudar a la creación de nuevas instancias de objetos.
+
+El patrón Command permite solicitar una operación a un objeto sin conocer realmente el contenido de esta operación, ni el receptor real de la misma. Para ello se encapsula la petición como un objeto, con lo que además facilita la parametrización de los métodos.
+
+Existen dos tipos de testing:
+
+Unit Testing: Evaluamos el funcionamiento de los componentes individualmente.
+Integration Testing: Validar la interacción entre los componentes y el sistema completo.
+
+SOLID son cinco principios básicos de la programación orientada a objetos que ayudan a crear software mantenible en el tiempo.
+
+SOLID significa:
+
+S: Single Reponsibility Principle
+O: Open/Closed Principle
+L: Liskov Substitution Principle
+I: Interface Segregation Principle
+D: Dependency Inversion Principle
+La S se trata de una clase que debe tener sólo una razón para cambiar.
+Open/Closed Principle establece que una entidad de software debe quedarse abierta para su extensión, pero cerrada para su modificación.
+El Liskov Substitution Principle establece que cada clase que hereda de otra puede usarse como su padre sin necesidad de conocer las diferencias entre ellas. Para que pueda darse este principio debe cumplir con dos puntos:
+
+El cliente debe usar métodos de la clase padre únicamente.
+La clase hija no debe alterar el comportamiento de los métodos de la clase padre.
+El Interface Segregation Principle establece que los clientes de un programa sólo deberían conocer de éste los métodos que realmente usan.
+Dependency Inversion Principle detalla que los módulos de alto nivel no deben depender de los de bajo nivel, ambos deben depender de abstracciones.
+
+Las abstracciones no deben depender de los detalles, los detalles deben depender de las abstracciones.
+
+
+
+En esta clase el profesor Mauro Chojrin nos explicará cómo el Test Driven Development nos ayudará a reducir al mínimo los errores de nuestra aplicación aplicando primero las pruebas y luego el código de la aplicación.
+
+TDD o Test Driven Development es una metodología donde hacemos todo al revés. Por un momento vamos a dejar de programar para dedicarnos a escribir las pruebas.
+
+Los pull request son pedidos de mejora a archivos de un proyecto generalmente open source. Sirve para que la comunidad ayude a mejorar el código que ha sido escrito por ti, tu equipo o una empresa; luego de que realizamos un cambio generamos un pull request para ofrecer un cambio a mejora y solo queda esperar a que el dueño del repositorio lo pruebe y lo agregue a el código principal.
