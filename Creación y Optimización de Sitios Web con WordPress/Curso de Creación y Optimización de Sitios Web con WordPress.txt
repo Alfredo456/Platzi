@@ -18,3 +18,27 @@ https://search.google.com/search-console/welcome?hl=es
 wordference plugin para la seguridad
 backwpup plugin para los backups 
 WP Security Audit Log realiza auditorias al sitio (guarda registros de los usuarios que entran al sitio a editar contenido).
+
+Estos son los plugins necesarios para que la página tenga un excelente desempeño:
+
+Yoast SEO: Sirve para la configuración del SEO de nuestra página.
+Akismet Anti-Spam: Bloquea el spam que se dirige a nuestras páginas.
+Broken Link Checker: Ayuda a detectar cuando un enlace está roto y nos avisa para corregirlo. En SEO esto es muy importante porque una página con enlaces rotos no se posiciona tan bien en buscadores.
+Contact Form 7: Sirve para hacer formularios de contacto.
+WPBakery Page Builder: Es un maquetador visual. Sirve para colocar elementos dentro de la página web.
+Table of Contents Plus: Sirve para posicionar contenido de acuerdo a los subtítulos que tenga, previo al contenido principal. Ayuda a una excelente lectura y a Google le gusta.
+Smush: Ayuda a comprimir imágenes, de manera que se vean bien pero sean ligeras.
+Adapta RGPD: Ayuda a adaptarnos al requerimiento de la Unión Europea en cuanto a protección de datos.
+Revolution Slider: Sirve para trabajar imágenes en movimiento, sin poner una sola línea de código.
+
+
+al cargar imagenes, importante que tenga titulo y texto alternativo
+
+AMP for WP – Accelerated Mobile Pages otro plugin usado para velocidad en dispositivos moviles 
+
+Título SEO, subtítulos H2, H3, H4: El título SEO o H1 es el título principal de nuestro post, siendo los H2, H3, H4… estructuras de HTML de títulos secundarios.
+Slug: Es la dirección web donde está almacenado el contenido.
+Meta descripción: Es una descripción que invita a ingresar a la página.
+Enlaces: Una página debe tener enlaces internos y enlaces externos.
+Legibilidad: Es aquella técnica que se aplica en los textos y que permite que la lectura sea más agradable. Yoast evalúa algunos aspectos para ayudarnos a saber si estamos bien con la legibilidad; hay que saber que las palabras de transición son muy bien evaluadas por Google.
+SERPS: Son páginas que muestran los resultados de las búsquedas, posicionando de mejor manera aquellas que cuentan con adecuado título SEO, slug y meta descripción.
