@@ -1,0 +1,3 @@
+inicio de un archivo PHP: 
+<?php 
+?>
