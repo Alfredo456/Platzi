@@ -1,3 +1,13 @@
 inicio de un archivo PHP: 
 <?php 
 ?>
+
+operadores aritmeticos
+operadores asignacion
+operadores condicionales
+operadores incremento/decremento
+
+aunque en algun momento dijo este, yo opino que es igual al condicional solo que los usa como sinonimos:  
+operadores comparacion 
+
+en php solo puedes heredar de un padre, pero puedes implementar todas las interfces que quieras 
