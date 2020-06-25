@@ -1,3 +1,18 @@
 inicio de un archivo PHP: 
 <?php 
 ?>
+
+Tema: Variables y tipos de datos y cadenas 
+
+Variables en php son dinamicas -devilmente tipeadas - no tiene sistema de tipos estaticos 
+tipo devil: debido a que hace autocast de las variables, por ejemplo echo espera una cadena pero si le pasas un numero sirve, esto es porque el hace un autocast del entero a cadena de string
+
+tenemos, cadenas, enteros, flotantes, null, bool 
+
+funcion util vardump('dato') te da el tipo de varible, al estar trabajando con este lenguaje puede ser util saber si la variable muto
+
+cadenas con comillas simples y con comillas dobles, con las simples el string es un literal, con las dobles puede reconocer variables escritas dentro del string
+
+concatenado se hace con un punto a . b concatena lo q tiene a con lo que tiene b 
+
+include vs require el primero intenta importar si no lo encuentra lanza un warning el segundo en cambio si no lo encuentra falla y se cancela la ejecucion 
