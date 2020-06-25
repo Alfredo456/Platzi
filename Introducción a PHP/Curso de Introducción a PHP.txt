@@ -11,3 +11,16 @@ aunque en algun momento dijo este, yo opino que es igual al condicional solo que
 operadores comparacion 
 
 en php solo puedes heredar de un padre, pero puedes implementar todas las interfces que quieras 
+
+Tema ORM, 
+
+Aqui nos enseño eloquent el ORM de PHP de preferencia, dato interesante, en su primer ejemplo el no hace el modelo de las tablas con eloquent, el crea la tabla con sql normal (en este caso con la interfaz de phpmyadmin) y en el proyecto solo relaciona la clase con el nombre de la tabla. 
+
+Esto me hace pensar algo interesante, imaginate crear tu base de datos normal con un modelo relacional, generarla y luego poder obtener de alguna forma la traduccion de una base de datos sql a la estructura orm, asi podrias usar un modelador grafico para la base de datos, generas el scritp, haces la base de datos, luego generas los modelos del orm y basicamente te quitaste de encima tener que crear tu la estructura del orm aparte que asi se utiliza el modelo que hiciste graficamente, no pierdes tiempo.
+
+copio la url de un hilo que se relaciona con esto. https://stackoverflow.com/questions/30560485/create-models-from-database-in-laravel-5 
+
+
+Tema Rutas 
+https://httpd.apache.org/docs/2.4/es/howto/htaccess.html
+aqui el empieza a modularizar el aplicativo, intenta hacer una configuracion de enrutamiento, para lo que tiene q configurar el pache que es tu servidor, usa los archivos htacces par esto, uno en la raiz para el enrutamiento en la raiz hacia la carpeta que el quiere y luego otro en l carpeta especifica para hacer el enrutamiento a los modulos de la app. 
